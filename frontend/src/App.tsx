@@ -3,7 +3,7 @@ import { useState } from "react";
 import SettingsMenu from "./components/SettingsMenu";
 import NavBar from "./components/NavBar"; //
 import Home from "./components/Home";
-import Timer from "./components/Timer";
+import Timer from "./components/Timer/Timer";
 import ToDoList from "./components/ToDoList";
 import GooberMenu from "./components/GooberMenu";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
