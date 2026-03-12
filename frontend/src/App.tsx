@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar"; //
 import Home from "./components/Home";
 import Timer from "./components/Timer/Timer";
 import ToDoList from "./components/ToDoList";
-import GooberMenu from "./components/GooberMenu";
+import GooberMenu from "./components/GooberMenu/GooberMenu";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

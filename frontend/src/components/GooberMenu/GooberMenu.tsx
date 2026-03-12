@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./GooberMenu.css";
-import GooberImg from "../assets/GooberPlaceholder.png";
+import GooberImg from "../../assets/GooberPlaceholder.png";
 import { useState } from "react";
 import GooberInfo from "./GooberInfo";
 import GooberPlayMenu from "./GooberPlayMenu";
