@@ -1,6 +1,6 @@
 import { useState } from "react";
-import oscLogo from "../assets/osc-logo.png";
-import githubLogo from "../assets/github-mark-white.svg";
+import oscLogo from "../../assets/osc-logo.png";
+import githubLogo from "../../assets/github-mark-white.svg";
 
 const Home = () => {
   const [count, setCount] = useState(0);

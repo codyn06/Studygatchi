@@ -1,7 +1,7 @@
 import "./App.css";
 import SettingsMenu from "./components/SettingsMenu/SettingsMenu";
-import NavBar from "./components/NavBar"; //
-import Home from "./components/Home";
+import NavBar from "./components/NavBar/NavBar"; //
+import Home from "./components/Home/Home";
 import Timer from "./components/Timer/Timer";
 import ToDoList from "./components/ToDoList/ToDoList";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
