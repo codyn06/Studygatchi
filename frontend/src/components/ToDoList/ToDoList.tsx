@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Card from "./Card/Card";
+import Card from "../Card/Card";
 
 export default function ToDoList() {
   const [items, setItems] = useState([
