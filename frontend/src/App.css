@@ -3,12 +3,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #121212;
+  background-color: #212529;
   color: #ffffff;
 }
 
 :root {
-  --bg-color: #121212;
+  --bg-color: #212529;
   --text-color: #ffffff;
   --button-bg: #333333;
   --button-hover: #555555;
