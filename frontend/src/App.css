@@ -3,37 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-body {
-  background-color: #121212 !important;
-  color: #ffffff !important;
-  margin: 0;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    --button-bg: #333333;
-    --button-hover: #555555;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --button-bg: #f0f0f0;
-    --button-hover: #e0e0e0;
-  }
 }
 
 .logo {

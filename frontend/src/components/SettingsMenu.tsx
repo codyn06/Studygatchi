@@ -15,7 +15,9 @@ export default function SettingsMenu() {
           flexDirection: "row",
         }}
       >
-        <button type="button" aria-label="Close"></button>
+        <button type="button" aria-label="Close">
+          X
+        </button>
         <text
           style={{
             fontSize: 12,
