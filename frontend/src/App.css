@@ -3,6 +3,37 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --button-bg: #333333;
+    --button-hover: #555555;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --button-bg: #f0f0f0;
+    --button-hover: #e0e0e0;
+  }
 }
 
 .logo {
@@ -55,15 +86,15 @@
   margin: 4px 0 0 5px;
   font-size: 12px;
   padding: 4px 12px;
-  background-color: #8f8f8f;
-  color: #d3d1d1;
+  background-color: var(--button-bg);
+  color: var(--text-color);
   border: 1px solid #444;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .todolist-addItem:hover {
-  background-color: #7e7c7c;
+  background-color: var(--button-hover);
 }
 
 .todolist-item {
@@ -81,15 +112,15 @@
   margin: 4px 0 0 5px;
   font-size: 12px;
   padding: 4px 12px;
-  background-color: #8f8f8f;
-  color: #d3d1d1;
+  background-color: var(--button-bg);
+  color: var(--text-color);
   border: 1px solid #444;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .todolist-trashbutton:hover {
-  background-color: #7e7c7c;
+  background-color: var(--button-hover);
 }
 
 .wrapper {

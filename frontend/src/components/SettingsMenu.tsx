@@ -9,14 +9,13 @@ export default function SettingsMenu() {
   return (
     <Card>
       <div
-        className="card-header"
         style={{
           display: "flex",
           alignItems: "center",
           flexDirection: "row",
         }}
       >
-        <button type="button" className="btn-close" aria-label="Close"></button>
+        <button type="button" aria-label="Close"></button>
         <text
           style={{
             fontSize: 12,
@@ -27,11 +26,10 @@ export default function SettingsMenu() {
           <text>Money</text>
         </text>
       </div>
-      <div className="card-body">
-        <h5 className="card-title">General</h5>
-        <div className="form-check form-switch">
+      <div>
+        <h5>General</h5>
+        <div>
           <input
-            className="form-check-input"
             type="checkbox"
             role="switch"
             id="sampleCheckbox1"
@@ -39,13 +37,12 @@ export default function SettingsMenu() {
               firstOption ? setFirst(false) : setFirst(true);
             }}
           />
-          <label className="form-check-label" htmlFor="sampleCheckbox1">
+          <label htmlFor="sampleCheckbox1">
             This is set to {firstOption ? "true" : "false"}
           </label>
         </div>
-        <div className="form-check form-switch">
+        <div>
           <input
-            className="form-check-input"
             type="checkbox"
             role="switch"
             id="sampleCheckbox2"
@@ -53,17 +50,13 @@ export default function SettingsMenu() {
               secondOption ? setSecond(false) : setSecond(true);
             }}
           />
-          <label className="form-check-label" htmlFor="sampleCheckbox2">
+          <label htmlFor="sampleCheckbox2">
             This is set to {secondOption ? "true" : "false"}
           </label>
         </div>
-        <label htmlFor="range1" className="form-label">
-          Example range
-        </label>
-        <input type="range" className="form-range" id="range1"></input>
-        <h5 className="card-title" style={{ paddingTop: 10 }}>
-          Themes
-        </h5>
+        <label htmlFor="range1">Example range</label>
+        <input type="range" id="range1"></input>
+        <h5 style={{ paddingTop: 10 }}>Themes</h5>
         <div style={{ display: "flex", gap: 10 }}>
           <div
             className="themeChoice"
@@ -73,9 +66,7 @@ export default function SettingsMenu() {
 
           <div className="themeChoice"></div>
         </div>
-        <h5 className="card-title" style={{ paddingTop: 10 }}>
-          Miscellaneous
-        </h5>
+        <h5 style={{ paddingTop: 10 }}>Miscellaneous</h5>
       </div>
     </Card>
   );

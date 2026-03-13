@@ -1,12 +1,9 @@
 import { useState } from "react";
 import oscLogo from "../assets/osc-logo.png";
 import githubLogo from "../assets/github-mark-white.svg";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   const [count, setCount] = useState(0);
-
-  // had to add because bootstrap defaults to light mode
 
   return (
     <div>
@@ -19,7 +16,7 @@ const Home = () => {
         </a>
       </div>
       <h1>Welcome to StudyGatchi!</h1>
-      <div className="card">
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
