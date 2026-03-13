@@ -1,5 +1,5 @@
 import "./App.css";
-import SettingsMenu from "./components/SettingsMenu";
+import SettingsMenu from "./components/SettingsMenu/SettingsMenu";
 import NavBar from "./components/NavBar"; //
 import Home from "./components/Home";
 import Timer from "./components/Timer/Timer";
